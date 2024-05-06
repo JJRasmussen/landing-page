@@ -159,6 +159,11 @@ p {
 
 }
 
+.center-text{
+    width: 160px;
+    text-align: center;
+    padding: 8px;
+}
 
 
 
