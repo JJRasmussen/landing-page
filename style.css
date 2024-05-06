@@ -2,7 +2,6 @@
 
 body{
     height: 100vh;
-    overflow:hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -71,9 +70,16 @@ p {
     padding: 8px 16px;
     border-radius: 8px;
     background: royalblue;
-    border: 1px solid royalblue;
     color: white;
     width: 100px;
+}
+
+.top-button{
+    border: 1px solid royalblue;
+}
+
+.bottom-button{
+    border: 1px solid white;
 }
 
 .headerbutton{
@@ -93,6 +99,7 @@ p {
 .center{
     display: flex;
     justify-content: center;
+    margin: 22px;
     
 }
 
@@ -150,21 +157,46 @@ p {
 .quote{
     display:flex;
     justify-content: center;
+    background-color: #E5E7EB;
+    padding: 36px;
+}
+
+.quote-container{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
 
 }
 
 .citation{
-    align-self: flex-end
+    font-size: 26px;
+    text-align: end;
+    color: rgb(90, 90, 90);
 }
 
 
 .call-to-action{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 36px;
+    padding: 22px;
+}
+
+.left-call{
+    color: white;
+}
+
+.call-headline{
+    font-weight: 700;
+    font-size: 22px;
 }
 
 .right-call{
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 ul {
@@ -173,3 +205,11 @@ ul {
     gap: 16px;
 }
 
+.footer{
+    display:flex;
+    background-color:#1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
