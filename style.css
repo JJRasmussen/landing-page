@@ -1,4 +1,6 @@
-
+* {
+    outline: 2px solid red;
+}
 
 body{
     height: 100vh;
@@ -13,7 +15,9 @@ body{
     display:flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 48px;
+    padding-left: 120px;
+    padding-right:120px;
+    padding-bottom: 48px;
     padding-top: 8px;
     
 }
@@ -42,7 +46,14 @@ body{
 }
 
 .left-lower-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
+
+p {
+    margin:0px;
 }
 
 .header-headline{
@@ -63,6 +74,11 @@ body{
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
+
+}
+
+.headerbutton{
+    align-self: flex-start;
 }
 
 .right-lower-header{
